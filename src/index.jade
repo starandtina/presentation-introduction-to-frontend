@@ -1,0 +1,146 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title presentation-introduction-to-frontend
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section
+        h1 Introdution to Frontend
+
+      section
+        h2.bullet What is Frontend
+
+      section
+        h2.bullet Just another name for...
+        ul
+          li Front End Engineer
+          li Software Engineer
+          li Web Developer
+          li Front End Development
+          li UI Engineer
+          li Web Ninja
+          li Web Rock Star
+
+      section
+        h3 A mix of programming and layout that powers the visuals and interactions of the web
+
+      section
+        img(src='images/frontend-knowledge-chart.jpeg', style='width:480px; height: 470px;')
+
+      section
+        h3.bullet What will happen when you types a URL in the Browser?
+        ul
+          li DNS Lookup
+          li Socket
+          li ...
+          li Load Balancer
+          li Web Server: Nginx, Apache, Tomcat, Node.js etc...
+          li The world of Backend handlering HTTP Requests: PHP、Java、JavaScript、Python
+          li Send back HTML...
+          li Browser works: parse -> render -> layout -> painting
+
+      section
+        h3 How Browser works
+        h4 Rendering engine basic flow
+        img(src='images/flow.png')
+
+      section
+        h2 The Browser
+
+      section
+        h2.bullet Runs on...
+        ul
+          li Mac OS
+          li Windows
+          li Linux
+
+      section
+        h2.bullet Runs on...
+        img(src='images/browsers.gif')
+
+      section
+        h2.bullet Anatomy of a Web Page
+        ul
+          li HTML is for Content
+          li CSS is for Presentation
+          li JavaScript is for Interactivity
+
+      section
+        h3.bullet HTML
+        ul
+          li HyperText Markup Language
+          li Markup language
+          li Define and describe content: headers, footers, paragraphs, images, etc.
+
+      section
+        h3.bullet CSS
+        ul
+          li Cascading Style Sheets
+          li Describing the look and formatting of a document written in a markup language(HTML, SVG, VML, MathML, etc.)
+
+      section 
+        h3.bullet JavaScript
+        ul
+          li Add interactivity and behavior to HTML
+          li Make content dynamic and  
+
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h3.bullet The Nature of JavaScript
+        ul
+          li It’s dynamic
+          li It’s dynamically typed
+          li It’s functional and object-oriented
+          li It fails silently
+          li It’s deployed as source code
+          li It’s part of the web platform
+
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h3.bullet Elegant Parts of JavaScript
+        ul
+          li First-class functions
+          li Closures
+          li Prototypes
+          li Object literals: {}
+          li Array literals: []
+
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h3.bullet Programming languages that influenced JavaScript
+        ul
+          li Java is the role model for JS's syntax, data type and memory management
+          li AWK inspired JS's functions
+          li Scheme is the reason that JS has first-class functions
+          li Self is responsible for JS’s prototype inheritance
+          li Perl and Python influenced JS’s handling of strings, arrays, and regular expressions
+          li HyperTalk influenced how JS was integrated into web browser, such as `onclick`
+
+      section
+        img(src='images/influences.png' style='width: 490px; height: 350px')
+
+      section
+        h2 Syntax Highlighting
+        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
+        pre
+          code.language-javascript.
+            bespoke.from('article', [
+              classes(),
+              keys(),
+              touch(),
+              bullets('li, .bullet')
+            ]);
+
+      section
+        h2.bullet Just the beginning...
+        br
+        ul
+          li
+            Enjoy Frontend! :)
+            a(href='http://weibo.com/starandtina')  -@starandtina
+
+    script(src='build/build.js')
